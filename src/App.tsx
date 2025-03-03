@@ -99,7 +99,6 @@ const ChartComponent: React.FC<ChartComponentProps> = ({ file }) => {
           dataKey="value"
           stroke="#fff"
           fill="#8884d8"
-          label={({ name, value }) => `${name}: ${value}`} // نمایش عدد فروش در هر بخش
         />
       </div>
     </div>
